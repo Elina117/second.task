@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "second.task", "second.task\second.task.csproj", "{D6B6AB60-408A-45E6-80F5-E3B805C9FE98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tumakow.second", "tumakow.second\tumakow.second.csproj", "{614F46A0-DEDC-4842-92F8-F1338586CE80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6B6AB60-408A-45E6-80F5-E3B805C9FE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B6AB60-408A-45E6-80F5-E3B805C9FE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B6AB60-408A-45E6-80F5-E3B805C9FE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B6AB60-408A-45E6-80F5-E3B805C9FE98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614F46A0-DEDC-4842-92F8-F1338586CE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614F46A0-DEDC-4842-92F8-F1338586CE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614F46A0-DEDC-4842-92F8-F1338586CE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614F46A0-DEDC-4842-92F8-F1338586CE80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E88496A7-1D10-4CBA-BA40-6EA5361FA0AC}
+	EndGlobalSection
+EndGlobal
