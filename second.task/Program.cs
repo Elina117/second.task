@@ -175,18 +175,35 @@ namespace second.task
 
 
 
-            Console.WriteLine("Task 6");
-            Console.Write("Введите скорость таракана км/ч: ");
-            int kmch = int.Parse(Console.ReadLine());
-            int smsec = ((kmch * 1000 * 100) / (60 * 60));
-            Console.WriteLine(smsec);
+            //Console.WriteLine("Task 6");
+            //Console.Write("Введите скорость таракана км/ч: ");
+            //int kmch = int.Parse(Console.ReadLine());
+            //int smsec = ((kmch * 1000 * 100) / (60 * 60));
+            //Console.WriteLine(smsec);
 
-
+            Console.WriteLine("Task 7");
+            Console.Write("Введите строку: ");
+            string str1 = Console.ReadLine();
+            StringBuilder str2 = new StringBuilder();
+            foreach (Char i in str1.ToCharArray())
+            {
+                if (Char.IsLower(i))
+                {
+                    str2.Append(Char.ToUpper(i));
+                }
+                else
+                {
+                    str2.Append(Char.ToLower(i));
+                }
+            }
+                Console.WriteLine(str2);
         }
 
 
     }
 
+
+    
 }
 
 
